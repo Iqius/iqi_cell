@@ -27,11 +27,18 @@ Berikut saya sampaikan catatan tanggal dan waktu pengerjaan coding test sesuai i
 
 # Cara Menjalankan
 !. Masuk ke terminal dan clone repository ini git clone https://github.com/Iqius/iqi_cell.git
+
 2. masuk ke folder yang berisi clone an prototype ini
+   
 3. Pastikan direktori terminal sudah aktif untuk folder ini jika belum cd nama folder
+   
 4. npm install
+   
 5. buka terminal baru lalu npx json-server db.json --port 3001
+   
 6. buka terminal baru lalu npm run dev
+    
 7. Masuk ke link yang dikirim oleh vite di terminal dimana prototypeberjalan
+    
 8. login dengan no hp dan otp yang ada di db.json
 
