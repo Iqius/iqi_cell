@@ -26,7 +26,8 @@ Berikut saya sampaikan catatan tanggal dan waktu pengerjaan coding test sesuai i
 2 Okt (22.00 – 3 Okt 04.00 WIB): Melakukan pengujian dengan Lighthouse pada 4 komponen dan memperbaiki bug.
 
 # Cara Menjalankan
-!. Masuk ke terminal dan clone repository ini git clone https://github.com/Iqius/iqi_cell.git
+
+1. Masuk ke terminal dan clone repository ini git clone https://github.com/Iqius/iqi_cell.git
 
 2. masuk ke folder yang berisi clone an prototype ini
    
