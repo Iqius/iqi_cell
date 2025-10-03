@@ -17,6 +17,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 # Timeline
 Berikut saya sampaikan catatan tanggal dan waktu pengerjaan coding test sesuai instruksi:
+
 30 Sept (sore): Menerima tugas. Kondisi badan kurang fit sehingga istirahat.
 
 1 Okt (09.00 – 17.00 WIB): Belajar React dan mencari referensi desain. Setelah itu istirahat karena kondisi kesehatan belum pulih sepenuhnya.
