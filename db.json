@@ -1,5 +1,283 @@
 {
-  "users": [],
-  "packages": [],
-  "transactions": []
+  "users": [
+    {
+      "id": "1",
+      "phone": "08123456789",
+      "otp": "1234",
+      "saldo": 265000,
+      "masaAktif": "2025-12-12",
+      "kuota": 20,
+      "masaAktifKuota": 38
+    }
+  ],
+  "topUpPulsa": [
+    {
+      "id": "1",
+      "nominal": 50000,
+      "masaAktif": "+10 hari"
+    },
+    {
+      "id": "2",
+      "nominal": 100000,
+      "masaAktif": "+30 hari"
+    },
+    {
+      "id": "3",
+      "nominal": 150000,
+      "masaAktif": "+45 hari"
+    },
+    {
+      "id": "4",
+      "nominal": 200000,
+      "masaAktif": "+60 hari"
+    }
+  ],
+  "paketUtama": [
+    {
+      "id": "1",
+      "title": "1GB",
+      "kuota": 1,
+      "deskripsi": "Kuota Harian 1GB",
+      "harga": 5000,
+      "masaAktifTambahan": 1
+    },
+    {
+      "id": "2",
+      "title": "2GB",
+      "kuota": 2,
+      "deskripsi": "Kuota Harian 2GB",
+      "harga": 10000,
+      "masaAktifTambahan": 2
+    },
+    {
+      "id": "3",
+      "title": "3GB",
+      "kuota": 3,
+      "deskripsi": "Kuota Harian 3GB",
+      "harga": 15000,
+      "masaAktifTambahan": 3
+    },
+    {
+      "id": "4",
+      "title": "5GB",
+      "kuota": 5,
+      "deskripsi": "Kuota Harian 5GB",
+      "harga": 20000,
+      "masaAktifTambahan": 5
+    },
+    {
+      "id": "5",
+      "title": "7GB",
+      "kuota": 7,
+      "deskripsi": "Kuota Mingguan 7GB",
+      "harga": 50000,
+      "masaAktifTambahan": 7
+    },
+    {
+      "id": "6",
+      "title": "14GB",
+      "kuota": 14,
+      "deskripsi": "Kuota Mingguan 14GB",
+      "harga": 90000,
+      "masaAktifTambahan": 14
+    },
+    {
+      "id": "7",
+      "title": "21GB",
+      "kuota": 21,
+      "deskripsi": "Kuota Mingguan 21GB",
+      "harga": 130000,
+      "masaAktifTambahan": 21
+    },
+    {
+      "id": "8",
+      "title": "28GB",
+      "kuota": 28,
+      "deskripsi": "Kuota Mingguan 28GB",
+      "harga": 170000,
+      "masaAktifTambahan": 28
+    },
+    {
+      "id": "9",
+      "title": "30GB",
+      "kuota": 30,
+      "deskripsi": "Kuota Bulanan 30GB",
+      "harga": 120000,
+      "masaAktifTambahan": 30
+    },
+    {
+      "id": "10",
+      "title": "50GB",
+      "kuota": 50,
+      "deskripsi": "Kuota Bulanan 50GB",
+      "harga": 180000,
+      "masaAktifTambahan": 50
+    },
+    {
+      "id": "11",
+      "title": "75GB",
+      "kuota": 75,
+      "deskripsi": "Kuota Bulanan 75GB",
+      "harga": 250000,
+      "masaAktifTambahan": 75
+    },
+    {
+      "id": "12",
+      "title": "100GB",
+      "kuota": 100,
+      "deskripsi": "Kuota Bulanan 100GB",
+      "harga": 320000,
+      "masaAktifTambahan": 100
+    }
+  ],
+  "beliLagi": [
+    {
+      "id": "1",
+      "title": "1GB",
+      "kuota": 1,
+      "deskripsi": "Kuota Harian 1GB",
+      "harga": 10000,
+      "masaAktifTambahan": 1
+    },
+    {
+      "id": "2",
+      "title": "2GB",
+      "kuota": 2,
+      "deskripsi": "Kuota Harian 2GB",
+      "harga": 15000,
+      "masaAktifTambahan": 2
+    },
+    {
+      "id": "3",
+      "title": "7GB",
+      "kuota": 7,
+      "deskripsi": "Kuota Mingguan 7GB",
+      "harga": 50000,
+      "masaAktifTambahan": 7
+    },
+    {
+      "id": "4",
+      "title": "14GB",
+      "kuota": 14,
+      "deskripsi": "Kuota Mingguan 14GB",
+      "harga": 90000,
+      "masaAktifTambahan": 14
+    }
+  ],
+  "spesialUntukAnda": [
+    {
+      "id": "1",
+      "title": "10GB",
+      "kuota": 10,
+      "deskripsi": "Kuota Bonus 10GB",
+      "harga": 20000,
+      "masaAktifTambahan": 1
+    },
+    {
+      "id": "2",
+      "title": "2GB",
+      "kuota": 2,
+      "deskripsi": "Double Kuota Harian 2GB",
+      "harga": 15000,
+      "masaAktifTambahan": 2
+    },
+    {
+      "id": "3",
+      "title": "5GB",
+      "kuota": 5,
+      "deskripsi": "Kuota Extra 5GB",
+      "harga": 10000,
+      "masaAktifTambahan": 3
+    },
+    {
+      "id": "4",
+      "title": "5GB",
+      "kuota": 5,
+      "deskripsi": "Kuota Extra 5GB",
+      "harga": 10000,
+      "masaAktifTambahan": 1
+    }
+  ],
+  "notifikasi": [
+    {
+      "id": "1",
+      "deskripsi": "Selamat datang di IQICell!",
+      "waktu": "2025-10-03T08:30:00"
+    },
+    {
+      "id": "1759447716406",
+      "deskripsi": "Saldo bertambah Rp 50000, masa aktif +10 hari",
+      "waktu": "2025-10-02T23:28:36.406Z"
+    },
+    {
+      "id": 1759447915447,
+      "deskripsi": "Saldo bertambah Rp 50000, masa aktif +10 hari",
+      "waktu": "2025-10-02T23:31:55.447Z"
+    },
+    {
+      "id": 1759447919378,
+      "deskripsi": "Saldo bertambah Rp 50000, masa aktif +10 hari",
+      "waktu": "2025-10-02T23:31:59.378Z"
+    },
+    {
+      "id": 1759447928535,
+      "deskripsi": "Saldo bertambah Rp 50000, masa aktif +10 hari",
+      "waktu": "2025-10-02T23:32:08.535Z"
+    },
+    {
+      "id": 1759448152706,
+      "deskripsi": "Saldo bertambah Rp 50000, masa aktif +10 hari",
+      "waktu": "2025-10-02T23:35:52.706Z"
+    },
+    {
+      "id": 1759448251631,
+      "deskripsi": "Saldo bertambah Rp 100000, masa aktif +30 hari",
+      "waktu": "2025-10-02T23:37:31.631Z"
+    },
+    {
+      "id": 1759451521166,
+      "deskripsi": "Berhasil membeli 2GB seharga Rp 15000",
+      "waktu": "2025-10-03T00:32:01.166Z"
+    },
+    {
+      "id": 1759451524702,
+      "deskripsi": "Berhasil membeli 1GB seharga Rp 10000",
+      "waktu": "2025-10-03T00:32:04.702Z"
+    },
+    {
+      "id": 1759451528556,
+      "deskripsi": "Berhasil membeli 1GB seharga Rp 5000",
+      "waktu": "2025-10-03T00:32:08.556Z"
+    },
+    {
+      "id": 1759451684657,
+      "deskripsi": "Berhasil membeli 1GB seharga Rp 10000",
+      "waktu": "2025-10-03T00:34:44.657Z"
+    },
+    {
+      "id": 1759451703318,
+      "deskripsi": "Berhasil membeli 2GB seharga Rp 15000",
+      "waktu": "2025-10-03T00:35:03.318Z"
+    },
+    {
+      "id": 1759451854909,
+      "deskripsi": "Berhasil membeli 1GB seharga Rp 10000",
+      "waktu": "2025-10-03T00:37:34.909Z"
+    },
+    {
+      "id": 1759451908204,
+      "deskripsi": "Berhasil membeli 1GB, kuota +1GB, masa aktif +1 hari, saldo berkurang Rp 5000",
+      "waktu": "2025-10-03T00:38:28.204Z"
+    },
+    {
+      "id": 1759451916869,
+      "deskripsi": "Berhasil membeli 1GB, kuota +1GB, masa aktif +1 hari, saldo berkurang Rp 10000",
+      "waktu": "2025-10-03T00:38:36.869Z"
+    },
+    {
+      "id": 1759452085075,
+      "deskripsi": "Berhasil membeli 1GB, kuota +1GB, masa aktif +1 hari, saldo berkurang Rp 10000",
+      "waktu": "2025-10-03T00:41:25.075Z"
+    }
+  ]
 }
